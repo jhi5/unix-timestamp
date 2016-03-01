@@ -9,10 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.15.0",
-    "es6-promise": "^3.1.2",
     "express": "^4.13.4",
-    "moment": "^2.11.2",
-    "underscore": "^1.8.3"
+    "moment": "^2.11.2"
   }
 }
