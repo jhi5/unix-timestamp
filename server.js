@@ -15,7 +15,7 @@ app.get('/', function(req, res) {
 app.get('/:time', function(req, res) {
 	var date = req.params.time;
 	date = datepicker(date);
-	res.send(JSON.stringify(date));
+	res.send(date);
 });
 
 app.listen(PORT, function() {
