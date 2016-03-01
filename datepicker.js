@@ -20,7 +20,7 @@ module.exports = function(x) {
 		obj.unix = moment(parseInt(x)).format('x');
 		obj = JSON.stringify(obj);
 		return JSON.parse(obj);
-		
+
 	} else {
 		console.log('Its all bad');
 		obj = JSON.stringify(obj);
